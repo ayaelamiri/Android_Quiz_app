@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4FAF7"
+    android:padding="25dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="371dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="30dp"
+
+        android:src="@drawable/sing" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:baselineAligned="false"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="Mail" /><![CDATA[
+
+    />
+
+    ]]>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:baselineAligned="false"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bLogin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:background="#E4F7EE"
+        android:text="Sing in"
+        android:onClick="Bouton1"/>
+
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:baselineAligned="false"
+        android:text="TO register click here"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

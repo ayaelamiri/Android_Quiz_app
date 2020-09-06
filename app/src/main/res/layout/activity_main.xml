@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#D1D1D1"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="371dp"
+        android:layout_height="425dp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:src="@drawable/main" />
+
+    <Button
+
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#7B7272"
+
+        android:padding="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Allez on commence le QuiZZ"
+        android:fontFamily="@string/common_google_play_services_notification_ticker"
+        android:textColor="#FFFFFF"
+
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.537" />
+
+
+
+</LinearLayout>
